@@ -40,24 +40,35 @@
 
 
 // Exercise B from if statements
+// class Main {
+//   public static void main(String[] args) {
+//   int salary_1, salary_2;
+//     String s1, s2;
+//     System.out.print("First salary: ");
+//     s1 = System.console().readLine();
+//     salary_1 = Integer.parseInt(s1);
+    
+//     System.out.print("Second salary: ");
+//     s2 = System.console().readLine();
+//     salary_2 = Integer.parseInt(s2);
+//     if (salary_1 + salary_2 > 40000) {
+//       System.out.print("Yep, more money for Liz");
+//     } else {
+//       System.out.print("nope, Kwasi sad :(");
+//     }
+//   }
+// }
+
+
 class Main {
   public static void main(String[] args) {
-  int salary_1, salary_2;
-    String s1, s2;
-    System.out.print("First salary: ");
-    s1 = System.console().readLine();
-    salary_1 = Integer.parseInt(s1);
-    
-    System.out.print("Second salary: ");
-    s2 = System.console().readLine();
-    salary_2 = Integer.parseInt(s2);
-    if (salary_1 + salary_2 > 40000) {
-      System.out.print("Yep, more money for Liz");
-    } else {
-      System.out.print("nope, Kwasi sad :(");
+  int num1 = 1;
+  int num =1;
+    while (num1<=10) {
+      num = num1*num1;
+      System.out.println(num);
+      num1++;
     }
-    }
-  
-  
-  
+  System.out.print("DONE");
   }
+}
