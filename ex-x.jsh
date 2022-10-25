@@ -29,11 +29,17 @@ int binaryToDecimal(String binaryNumber) {
 	}
 	return result;
 }
-
 int decimalToBinary (String decimalNumber) {
+	String decimalLength = decimalNumber.length();
 	
-
-
+	int result = 0;
+	for (i = 0, i < decimalLengthInteger, i++) {
+		power(10, decimalLeng
+	
+	
+		result = result +	 //(some value of the rest)
+	}
+		
 }
 
 
